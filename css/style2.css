@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+:root{
+    --laranja: rgb(254, 179, 26);
+    --preto: rgb(17, 17, 17, 0.96);
+    --branco: aliceblue;
+
+}
+body{
+    margin: 0 ;
+    padding: 0 ;
+    background-color: var(--branco);
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: var(--laranja);
+}
+
+.nome{
+    font-size: 20px;
+    position: absolute;
+    top: -1%;
+    left: 7%;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+}
+
+.search {
+    width: 55%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid black;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: gray;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid darkgray;
+    background: darkgray;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+  }
+
+.entr{
+    position: absolute;
+    top: 13%;
+    left: 2%;
+    font-size: 16px;
+}
+
+.card{
+    color: var(--laranja);
+    position: absolute;
+    right: 50%;
+    top: 25%;
+    font-size: 35px;
+}
+
+.exec{
+    font-size: 37px;
+    position: absolute;
+    right: 67%;
+    top: 47%;
+}
+
+
+.desc1{
+    position: absolute;
+    top: 65%;
+    left: 13%;
+    font-size: 12px;
+}
+.valor1{
+    position: absolute;
+    top: 79%;
+    left: 13%;
+    font-size: 12px;
+
+}
+
+.img1{
+    position: absolute;
+    top: 67%;
+    height: 25%;
+}
+
+
+
+.desc2{
+    position: absolute;
+    top: 95%;
+    left: 13%;
+    font-size: 12px;
+}
+.valor2{
+    position: absolute;
+    top: 105%;
+    left: 13%;
+    font-size: 12px;
+
+}
+
+.img2{
+    position: absolute;
+    top: 97%;
+    height: 25%;
+}
+.espec{
+    position: absolute;
+    right: 30%;
+    top: 125%;
+    font-size: 35px;
+}
+
+.desc3{
+    position: absolute;
+    top: 140%;
+    left: 13%;
+    font-size: 12px;
+}
+.valor3{
+    position: absolute;
+    top: 150%;
+    left: 13%;
+    font-size: 12px;
+
+}
+
+.img3{
+    position: absolute;
+    top: 140%;
+    height: 25%;
+}
+
+.desc4{
+    position: absolute;
+    top: 175%;
+    left: 13%;
+    font-size: 12px;
+}
+.valor4{
+    position: absolute;
+    top: 190%;
+    left: 13%;
+    font-size: 12px;
+
+}
+
+.img4{
+    position: absolute;
+    top: 175%;
+    height: 25%;
+}
+
+.sobrem{
+    position: absolute;
+    right: 48%;
+    top: 215%;
+    font-size: 35px;
+}
+.desc5{
+    position: absolute;
+    top:235%;
+    left: 13%;
+    font-size: 12px;
+}
+.valor5{
+    position: absolute;
+    top:245%;
+    left: 13%;
+    font-size: 12px;
+
+}
+
+.img5{
+    position: absolute;
+    top: 238%;
+    height: 25%;
+}
